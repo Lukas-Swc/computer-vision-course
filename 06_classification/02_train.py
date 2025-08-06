@@ -10,7 +10,7 @@ import os
 # suppress logs
 import warnings
 warnings.filterwarnings('ignore', category=FutureWarning)
-os.environ['TF_CPP_MIN_LOG_LEVE'] = '3'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 import tensorflow as tf
 from architecture import models
